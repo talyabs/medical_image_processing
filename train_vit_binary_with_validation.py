@@ -200,7 +200,7 @@ if __name__ == "__main__":
 
     hparams = Hparams()
     hparams.num_classes = 2  # Ensure this is set to 2
-    hparams.num_ephocs = 2
+    hparams.num_epochs = 10
     train_loader, val_loader, test_loader, class_weights = get_data_loaders(hparams)
 
     model = VisionTransformerModel(num_classes=hparams.num_classes).to(device)
