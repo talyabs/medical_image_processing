@@ -1,4 +1,4 @@
-# medical_image_processing
+# ViT for AD Detection with CDSS
 
 ## Overview
 
